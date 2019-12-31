@@ -1,0 +1,29 @@
+/* ---------- FONTS ---------- */
+/* ---------- FONTS END ---------- */
+/* ---------- UNIVERSAL ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ---------- UNIVERSAL END ---------- */
+/* ---------- SCSS VARIABLES ---------- */
+/* ---------- SCSS VARIABLES END ---------- */
+/* ---------- HEADER ---------- */
+/* ---------- HEADER END ---------- */
+/* ---------- MAIN ---------- */
+/* ---------- MAIN END ---------- */
+/* ---------- FOOTER ---------- */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/* ---------- FOOTER END ---------- */
+/*# sourceMappingURL=style.css.map */
