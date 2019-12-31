@@ -1,21 +1,97 @@
 /* ---------- FONTS ---------- */
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Karla"), local("Karla-Regular"),
+    url(https://fonts.gstatic.com/s/karla/v13/qkBbXvYC6trAT7RVLtw.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Karla Bold"), local("Karla-Bold"),
+    url(https://fonts.gstatic.com/s/karla/v13/qkBWXvYC6trAT7zuC8m5xLs.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
 /* ---------- FONTS END ---------- */
+
+/* ---------- SCSS VARIABLES ---------- */
+$lightcyan: hsl(179, 47%, 52%);
+$cyan: hsl(179, 62%, 43%);
+$yellow: hsl(71, 73%, 54%);
+$gray: hsl(204, 43%, 93%);
+$grayblue: hsl(218, 22%, 67%);
+/* ---------- SCSS VARIABLES END ---------- */
 
 /* ---------- UNIVERSAL ---------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Karla";
+}
+
+body {
+  background-color: $gray;
 }
 /* ---------- UNIVERSAL END ---------- */
 
-/* ---------- SCSS VARIABLES ---------- */
-/* ---------- SCSS VARIABLES END ---------- */
+/* ---------- CONTENT CONTAINER ---------- */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+/* ---------- CONTENT CONTAINER END ---------- */
 
 /* ---------- HEADER ---------- */
+header {
+  background-color: white;
+}
+
+header .title {
+  color: $cyan;
+}
+
+.guarantee {
+  color: $yellow;
+}
+
+.info {
+  color: $grayblue;
+}
 /* ---------- HEADER END ---------- */
 
 /* ---------- MAIN ---------- */
+main {
+  display: flex;
+  color: white;
+}
+
+.subscription {
+  background-color: $cyan;
+}
+
+.frequency {
+  color: $lightcyan;
+}
+
+.signup {
+  background-color: $yellow;
+  color: white;
+}
+
+.why {
+  background-color: $lightcyan;
+}
 /* ---------- MAIN END ---------- */
 
 /* ---------- FOOTER ---------- */
