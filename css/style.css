@@ -31,6 +31,9 @@
 
 body {
   background-color: #e5eff5;
+}
+
+.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,6 +59,8 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 600px;
           flex: 0 1 600px;
+  -webkit-box-shadow: 0 10px 10px 7px #d3e3ee;
+          box-shadow: 0 10px 10px 7px #d3e3ee;
 }
 
 /* ---------- CONTENT CONTAINER END ---------- */
@@ -147,6 +152,12 @@ main {
   margin-top: auto;
   border-radius: 5px;
   border: none;
+  -webkit-box-shadow: 0 7px 12px 4px #259d9b;
+          box-shadow: 0 7px 12px 4px #259d9b;
+}
+
+.signup:hover {
+  cursor: pointer;
 }
 
 .why {
@@ -172,12 +183,14 @@ main {
 /* ---------- MAIN END ---------- */
 /* ---------- FOOTER ---------- */
 .attribution {
-  font-size: 11px;
+  font-size: 0.7rem;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .attribution a {
-  color: #3e52a3;
+  font-size: 0.9rem;
+  color: #2ab2af;
 }
 
 /* ---------- FOOTER END ---------- */
