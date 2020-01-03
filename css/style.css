@@ -195,8 +195,17 @@ main {
 
 /* ---------- FOOTER END ---------- */
 @media screen and (max-width: 375px) {
+  .wrapper {
+    margin: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
   .content {
-    margin: 0 30px 0 30px;
+    margin: 60px 30px 60px 30px;
   }
   header {
     padding: 30px;
