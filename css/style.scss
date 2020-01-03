@@ -38,10 +38,16 @@ $grayblue: hsl(218, 22%, 67%);
   padding: 0;
   box-sizing: border-box;
   font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400;
 }
 
 body {
   background-color: $gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 /* ---------- UNIVERSAL END ---------- */
 
@@ -49,24 +55,34 @@ body {
 .content {
   display: flex;
   flex-direction: column;
+  flex: 0 1 600px;
 }
 /* ---------- CONTENT CONTAINER END ---------- */
 
 /* ---------- HEADER ---------- */
 header {
   background-color: white;
+  padding: 40px;
+  border-radius: 5px 5px 0 0;
 }
 
 header .title {
   color: $cyan;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .guarantee {
   color: $yellow;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .info {
   color: $grayblue;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
 }
 /* ---------- HEADER END ---------- */
 
@@ -78,19 +94,62 @@ main {
 
 .subscription {
   background-color: $cyan;
+  flex: 1;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 5px;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: 1.7rem;
+  font-weight: 700;
+  display: inline-flex;
+  padding: 10px 10px 10px 0;
 }
 
 .frequency {
-  color: $lightcyan;
+  opacity: 0.5;
+  font-size: 0.85rem;
+}
+
+.access {
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
 
 .signup {
   background-color: $yellow;
   color: white;
+  width: 100%;
+  height: 40px;
+  font-size: 0.9rem;
+  margin-top: auto;
+  border-radius: 5px;
+  border: none;
 }
 
 .why {
   background-color: $lightcyan;
+  flex: 1;
+  padding: 35px;
+  border-bottom-right-radius: 5px;
+}
+
+.why .title {
+  padding-bottom: 16px;
+}
+
+.reasons li {
+  font-size: 0.75rem;
+  opacity: 0.5;
+  line-height: 1.1rem;
+  list-style-type: none;
 }
 /* ---------- MAIN END ---------- */
 
