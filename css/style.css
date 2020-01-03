@@ -194,6 +194,7 @@ main {
 }
 
 /* ---------- FOOTER END ---------- */
+/* ---------- MOBILE SIZE ---------- */
 @media screen and (max-width: 375px) {
   .wrapper {
     margin: auto;
@@ -231,7 +232,9 @@ main {
     border-bottom-left-radius: 5px;
   }
   .attribution {
-    margin-top: 35px;
+    margin-top: 35%;
   }
 }
+
+/* ---------- MOBILE SIZE END ---------- */
 /*# sourceMappingURL=style.css.map */

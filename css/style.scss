@@ -176,6 +176,7 @@ main {
 
 /* ---------- FOOTER END ---------- */
 
+/* ---------- MOBILE SIZE ---------- */
 @media screen and (max-width: 375px) {
   .wrapper {
     margin: auto;
@@ -214,6 +215,7 @@ main {
   }
 
   .attribution {
-    margin-top: 35px;
+    margin-top: 35%;
   }
 }
+/* ---------- MOBILE SIZE END ---------- */
